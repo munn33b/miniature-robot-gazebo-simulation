@@ -12,6 +12,12 @@ Make sure to replace, <ROS_WORKSPACE> with your actual ROS Workspace in above co
 export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:/home/user/catkin_ws/src/miniature-robot-gazebo-simulation/miniature_robot_description/models
 ```
 
+Or run this command from Inside your ROS Workspace Directory to export Gazebo Model Path
+
+```
+export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:$PWD/src/miniature-robot-gazebo-simulation/miniature_robot_description/models
+```
+
 ### Running the Simulation
 
 To run the simulation in Gazebo environment, first source the workspace using following command, inside your ROS Workspace
