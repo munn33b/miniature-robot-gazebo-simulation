@@ -99,7 +99,7 @@
     <child
       link="wheel_fl" />
     <axis
-      xyz="0 1 0" />
+      xyz="0 -1 0" />
   </joint>
   <link
     name="wheel_bl">
@@ -152,7 +152,7 @@
     <child
       link="wheel_bl" />
     <axis
-      xyz="0 1 0" />
+      xyz="0 -1 0" />
   </joint>
   <link
     name="wheel_br">
@@ -258,7 +258,7 @@
     <child
       link="wheel_fr" />
     <axis
-      xyz="0 1 0" />
+      xyz="0 -1 0" />
   </joint>
   <link
     name="camera_link">
